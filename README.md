@@ -17,9 +17,9 @@
       JsonStorage obj = new JsonStorage(optionalFilePath);
       String key = "TestKey1";
       ObjectNode values = obj.getOMObject().createObjectNode();
-      values.put("name", "Raja");
-      values.put("name", "Ravi");
-      values.put("name", "Mani");
+      values.put("name", "apple");
+      values.put("name", "orange");
+      values.put("name", "kiwi");
       String response = obj.create(key, values);
       System.out.println(response);*/
 
