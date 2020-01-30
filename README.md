@@ -2,11 +2,13 @@
 
  To store the dataS based on key and Value please follow the bellow steps 
 
- 1) crate one Java Project then 
+ 1) Crate one java project from any of your IDE. 
 
- 2) add this Jar file into your buidPath Fwbacukendtask-0.0.1-SNAPSHOT
+ 2) Add this Fwbacukendtask-0.0.1-SNAPSHOT jar file into your buidPath. 
  
- 3) create one Java file. copy and past the below snippet into your class.
+ 3) Create one Java file and then copy and past the below snippet into your class.
+ 
+ 4) Run it.
  <pre>
       import com.fasterxml.jackson.databind.node.ObjectNode;
       import com.mypack.JsonStorage;
