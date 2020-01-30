@@ -16,6 +16,7 @@ public class JsonStorage {
 	private static final long defaultFileSize = 1073741824; // 1Gb
 	private final static String defaultFilePath = "c:\\FW-JsonStorage";
 	String currentPath = "";
+	
 	public JsonStorage(String optionalPath) {
 		this.checkAndCreateFilePath(optionalPath);
 	}
