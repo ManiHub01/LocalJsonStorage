@@ -13,9 +13,10 @@
       import com.fasterxml.jackson.databind.node.ObjectNode;
       import com.mypack.JsonStorage;
       public class FwStorageTest {
-        public static void main(String[] args) {
-          /* CREATE Operation*/
-      /*String optionalFilePath = "";
+      public static void main(String[] args) {
+      /* CREATE Operation*/
+      
+      String optionalFilePath = "";
       JsonStorage obj = new JsonStorage(optionalFilePath);
       String key = "TestKey1";
       ObjectNode values = obj.getOMObject().createObjectNode();
@@ -23,14 +24,13 @@
       values.put("name", "orange");
       values.put("name", "kiwi");
       String response = obj.create(key, values);
-      System.out.println(response);*/
+      System.out.println(response);
 
-      /* READ Operation*/
-      /*String key1 = "TestKey";
+      /*READ Operation*/
+      String key1 = "TestKey";
       String response1 = obj.read(key1);
       System.out.println(response1);
-      */		
-
+      
       /* DELETE Operation*/
       /*String key2 = "TestKey";
       String response2 = obj.delete(key2);
