@@ -17,6 +17,7 @@ public class JsonStorage {
 	private final static String defaultFilePath = "c:\\FW-JsonStorage";
 	String currentPath = "";
 	
+	
 	public JsonStorage(String optionalPath) {
 		this.checkAndCreateFilePath(optionalPath);
 	}
