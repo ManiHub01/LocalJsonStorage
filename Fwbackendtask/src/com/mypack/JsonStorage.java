@@ -19,6 +19,7 @@ public class JsonStorage {
 	String currentPath = "";
 
 	public JsonStorage(String optionalPath) {
+		System.out.print("asdf");
 		this.checkAndCreateFilePath(optionalPath);
 	}
 
